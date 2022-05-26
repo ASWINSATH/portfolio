@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Macondo&family=Montserrat:wght@200&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display:inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px 2px orange;
+}
+/* pseudo class - syntax: selector:pseudo-class{property-value} */
+.links:hover{
+    font-size: 30px;
+    text-decoration:underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* to get ombre effect to background use linear-gradient */
+#welcome{
+    background: linear-gradient(to right,yellow,green);
+    color: blue;
+}
+.profile{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+#name{
+    font-size: 60px;
+    line-height: 1.6;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Grape Nuts', cursive;
+}
+#bio{
+    font-size: 20px;
+    padding: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.line{
+    height: 6px;
+    background-color: crimson;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: darkblue;
+}
+#contact{
+    background-color: firebrick;
+
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
